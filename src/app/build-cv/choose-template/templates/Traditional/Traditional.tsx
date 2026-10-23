@@ -118,7 +118,7 @@ const Traditional: FC<Props> = ({ cvData }) => {
                           <div
                             className={`${job} ${
                               i === arr.length - 1 && { margin_0 }
-                            }`}
+                            } hhj`}
                             key={id}
                           >
                             <div className={job_duration}>
