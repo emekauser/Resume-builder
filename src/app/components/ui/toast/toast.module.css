@@ -1,0 +1,31 @@
+.toast {
+  position: fixed;
+  z-index: 900;
+  top: 30px;
+  right: 30px;
+  width: 400px;
+  background: white;
+  border: 1px solid var(--input-border-color);
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 16px 70px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+
+}
+.toast > :only-child {
+  display: flex;
+  gap: 10px;
+}
+.body p {
+  margin-top: 3px;
+  color: rgb(23, 43, 77);
+}
+.body h3 {
+  font-size: 16px;
+  color: rgb(23, 43, 77);
+}
+
+.show {
+  display: block;
+}

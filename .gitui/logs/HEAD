@@ -1,0 +1,62 @@
+0000000000000000000000000000000000000000 86beba9028e6319efd7c20687bd83cc688f08e40 Emeka <nwobodoemeka@yahoo.com> 1755778484 +0100	clone: from https://github.com/Georgedev2/Resume-builder.git
+86beba9028e6319efd7c20687bd83cc688f08e40 86beba9028e6319efd7c20687bd83cc688f08e40 Emeka <nwobodoemeka@yahoo.com> 1756477434 +0100	checkout: moving from main to emeak-cv
+86beba9028e6319efd7c20687bd83cc688f08e40 601a60bc8769351a37a7ce7e909d8ada5358c7af Emeka <nwobodoemeka@yahoo.com> 1756477449 +0100	commit: emeka cv
+601a60bc8769351a37a7ce7e909d8ada5358c7af 601a60bc8769351a37a7ce7e909d8ada5358c7af Emeka <nwobodoemeka@yahoo.com> 1756477527 +0100	checkout: moving from emeak-cv to chioma-cv
+601a60bc8769351a37a7ce7e909d8ada5358c7af 406fd3c82637110e0c04f314429da5e4ca8b9d67 Emeka <nwobodoemeka@yahoo.com> 1756479889 +0100	commit: chioma cv
+406fd3c82637110e0c04f314429da5e4ca8b9d67 601a60bc8769351a37a7ce7e909d8ada5358c7af Emeka <nwobodoemeka@yahoo.com> 1756479901 +0100	checkout: moving from chioma-cv to emeak-cv
+601a60bc8769351a37a7ce7e909d8ada5358c7af 695cee377c0bb88105948634b2ebe2d053299970 Emeka <nwobodoemeka@yahoo.com> 1756480348 +0100	commit: update cv
+695cee377c0bb88105948634b2ebe2d053299970 37d79f687429fa571bd77d78eaa4ea91824fef49 Emeka <nwobodoemeka@yahoo.com> 1756893395 +0100	commit: improve cv
+37d79f687429fa571bd77d78eaa4ea91824fef49 833cfc2af094c3a13da71082a612de7c088551c3 Emeka <nwobodoemeka@yahoo.com> 1757327356 +0100	commit: imporve cv 3
+833cfc2af094c3a13da71082a612de7c088551c3 406fd3c82637110e0c04f314429da5e4ca8b9d67 Emeka <nwobodoemeka@yahoo.com> 1757327408 +0100	checkout: moving from emeak-cv to chioma-cv
+406fd3c82637110e0c04f314429da5e4ca8b9d67 3ba32f91d77a307f71ca585aec6dfda6c790c223 Emeka <nwobodoemeka@yahoo.com> 1757327512 +0100	commit: ui and ux designer
+3ba32f91d77a307f71ca585aec6dfda6c790c223 833cfc2af094c3a13da71082a612de7c088551c3 Emeka <nwobodoemeka@yahoo.com> 1757496585 +0100	checkout: moving from chioma-cv to emeak-cv
+833cfc2af094c3a13da71082a612de7c088551c3 833cfc2af094c3a13da71082a612de7c088551c3 Emeka <nwobodoemeka@yahoo.com> 1757496594 +0100	checkout: moving from emeak-cv to emeka-cv
+833cfc2af094c3a13da71082a612de7c088551c3 833cfc2af094c3a13da71082a612de7c088551c3 Emeka <nwobodoemeka@yahoo.com> 1757496621 +0100	checkout: moving from emeka-cv to emeka-cv-ai
+833cfc2af094c3a13da71082a612de7c088551c3 30a0dba274b7eb3faa135cf6544b57d9552a6c65 Emeka <nwobodoemeka@yahoo.com> 1757499190 +0100	commit: make it ai specific
+30a0dba274b7eb3faa135cf6544b57d9552a6c65 b1e7d5f305f3aff79c9cb695beed5892e4a5521c Emeka <nwobodoemeka@yahoo.com> 1757938215 +0100	commit: improve cv
+b1e7d5f305f3aff79c9cb695beed5892e4a5521c 833cfc2af094c3a13da71082a612de7c088551c3 Emeka <nwobodoemeka@yahoo.com> 1758624569 +0100	checkout: moving from emeka-cv-ai to emeka-cv
+833cfc2af094c3a13da71082a612de7c088551c3 833cfc2af094c3a13da71082a612de7c088551c3 Emeka <nwobodoemeka@yahoo.com> 1758625055 +0100	checkout: moving from emeka-cv to emeka-node
+833cfc2af094c3a13da71082a612de7c088551c3 700c5ccea1a9c65c1f043b9428da939aa2902b61 Emeka <nwobodoemeka@yahoo.com> 1758785953 +0100	commit: node and ai
+700c5ccea1a9c65c1f043b9428da939aa2902b61 b1e7d5f305f3aff79c9cb695beed5892e4a5521c Emeka <nwobodoemeka@yahoo.com> 1758785989 +0100	checkout: moving from emeka-node to emeka-cv-ai
+b1e7d5f305f3aff79c9cb695beed5892e4a5521c 09db60501814a1027bf16d90c0cdc24db11587d4 Emeka <nwobodoemeka@yahoo.com> 1759142608 +0100	commit: updated changes
+09db60501814a1027bf16d90c0cdc24db11587d4 700c5ccea1a9c65c1f043b9428da939aa2902b61 Emeka <nwobodoemeka@yahoo.com> 1759142652 +0100	checkout: moving from emeka-cv-ai to emeka-node
+700c5ccea1a9c65c1f043b9428da939aa2902b61 b1f7ff212f6ca4f2ed3db3c328cd1dc1bc7eb914 Emeka <nwobodoemeka@yahoo.com> 1759143803 +0100	commit: update
+b1f7ff212f6ca4f2ed3db3c328cd1dc1bc7eb914 74f8ba8629fb5c8b770c7fd5083546500b6fc2e3 Emeka <nwobodoemeka@yahoo.com> 1759830247 +0100	commit: update
+74f8ba8629fb5c8b770c7fd5083546500b6fc2e3 09db60501814a1027bf16d90c0cdc24db11587d4 Emeka <nwobodoemeka@yahoo.com> 1759830261 +0100	checkout: moving from emeka-node to emeka-cv-ai
+09db60501814a1027bf16d90c0cdc24db11587d4 16243f0c18509aca60806e827dee0261a7247776 Emeka <nwobodoemeka@yahoo.com> 1760523100 +0100	commit: cv improvement
+16243f0c18509aca60806e827dee0261a7247776 74f8ba8629fb5c8b770c7fd5083546500b6fc2e3 Emeka <nwobodoemeka@yahoo.com> 1760523162 +0100	checkout: moving from emeka-cv-ai to emeka-node
+74f8ba8629fb5c8b770c7fd5083546500b6fc2e3 228c41dfb108723e3b05f658c08131eb1d9fa384 Emeka <nwobodoemeka@yahoo.com> 1760523446 +0100	commit: add improvement
+228c41dfb108723e3b05f658c08131eb1d9fa384 16243f0c18509aca60806e827dee0261a7247776 Emeka <nwobodoemeka@yahoo.com> 1760610707 +0100	checkout: moving from emeka-node to emeka-cv-ai
+16243f0c18509aca60806e827dee0261a7247776 716e6dc98208a279cfeace851b581f0aa0369d1c Emeka <nwobodoemeka@yahoo.com> 1760960139 +0100	commit: technology improvement
+716e6dc98208a279cfeace851b581f0aa0369d1c 228c41dfb108723e3b05f658c08131eb1d9fa384 Emeka <nwobodoemeka@yahoo.com> 1760960187 +0100	checkout: moving from emeka-cv-ai to emeka-node
+228c41dfb108723e3b05f658c08131eb1d9fa384 716e6dc98208a279cfeace851b581f0aa0369d1c Emeka <nwobodoemeka@yahoo.com> 1760960727 +0100	checkout: moving from emeka-node to emeka-cv-ai
+716e6dc98208a279cfeace851b581f0aa0369d1c 228c41dfb108723e3b05f658c08131eb1d9fa384 Emeka <nwobodoemeka@yahoo.com> 1760960831 +0100	checkout: moving from emeka-cv-ai to emeka-node
+228c41dfb108723e3b05f658c08131eb1d9fa384 a7a9610a6c1519a1216fb92342cf3c91eb45f5fa Emeka <nwobodoemeka@yahoo.com> 1760961883 +0100	commit: add technology
+a7a9610a6c1519a1216fb92342cf3c91eb45f5fa 716e6dc98208a279cfeace851b581f0aa0369d1c Emeka <nwobodoemeka@yahoo.com> 1760964162 +0100	checkout: moving from emeka-node to emeka-cv-ai
+716e6dc98208a279cfeace851b581f0aa0369d1c 833cfc2af094c3a13da71082a612de7c088551c3 Emeka <nwobodoemeka@yahoo.com> 1767615241 +0100	checkout: moving from emeka-cv-ai to emeka-cv
+833cfc2af094c3a13da71082a612de7c088551c3 a7a9610a6c1519a1216fb92342cf3c91eb45f5fa Emeka <nwobodoemeka@yahoo.com> 1767615445 +0100	checkout: moving from emeka-cv to emeka-node
+a7a9610a6c1519a1216fb92342cf3c91eb45f5fa a7a9610a6c1519a1216fb92342cf3c91eb45f5fa Emeka <nwobodoemeka@yahoo.com> 1767615496 +0100	checkout: moving from emeka-node to emeka-java
+a7a9610a6c1519a1216fb92342cf3c91eb45f5fa 8917d422f001bdb8e554deb6ef0900ca486f2d7d Emeka <nwobodoemeka@yahoo.com> 1767617979 +0100	commit: improved java cv
+8917d422f001bdb8e554deb6ef0900ca486f2d7d 185ae886a6048ae8328d940acc8c36ab50e47bcf Emeka <nwobodoemeka@yahoo.com> 1767619994 +0100	commit: more improvement
+185ae886a6048ae8328d940acc8c36ab50e47bcf a7a9610a6c1519a1216fb92342cf3c91eb45f5fa Emeka <nwobodoemeka@yahoo.com> 1767623688 +0100	checkout: moving from emeka-java to emeka-node
+a7a9610a6c1519a1216fb92342cf3c91eb45f5fa 5cfd27f9f8c6ff3ce3ae47f17efe50e6a55cb0ee Emeka <nwobodoemeka@yahoo.com> 1767624194 +0100	commit: imporvement
+5cfd27f9f8c6ff3ce3ae47f17efe50e6a55cb0ee 185ae886a6048ae8328d940acc8c36ab50e47bcf Emeka <nwobodoemeka@yahoo.com> 1767700472 +0100	checkout: moving from emeka-node to emeka-java
+185ae886a6048ae8328d940acc8c36ab50e47bcf 707d7ad94733d50fd8493734c17b51f9c6ed6fab Emeka <nwobodoemeka@yahoo.com> 1767701334 +0100	commit: improve cv
+707d7ad94733d50fd8493734c17b51f9c6ed6fab fb0f8a717eb90246a48b124a086b1d4492c8026d Emeka <nwobodoemeka@yahoo.com> 1767701532 +0100	commit: add c#
+fb0f8a717eb90246a48b124a086b1d4492c8026d 833cfc2af094c3a13da71082a612de7c088551c3 Emeka <nwobodoemeka@yahoo.com> 1767701541 +0100	checkout: moving from emeka-java to emeka-cv
+833cfc2af094c3a13da71082a612de7c088551c3 716e6dc98208a279cfeace851b581f0aa0369d1c Emeka <nwobodoemeka@yahoo.com> 1767701723 +0100	checkout: moving from emeka-cv to emeka-cv-ai
+716e6dc98208a279cfeace851b581f0aa0369d1c f03bc026151a72b0f7a9545ded2a546e9bc9744d Emeka <nwobodoemeka@yahoo.com> 1768297795 +0100	commit: add education
+f03bc026151a72b0f7a9545ded2a546e9bc9744d 5cfd27f9f8c6ff3ce3ae47f17efe50e6a55cb0ee Emeka <nwobodoemeka@yahoo.com> 1768297876 +0100	checkout: moving from emeka-cv-ai to emeka-node
+5cfd27f9f8c6ff3ce3ae47f17efe50e6a55cb0ee 5cfd27f9f8c6ff3ce3ae47f17efe50e6a55cb0ee Emeka <nwobodoemeka@yahoo.com> 1768298028 +0100	checkout: moving from emeka-node to emeka-node
+5cfd27f9f8c6ff3ce3ae47f17efe50e6a55cb0ee f03bc026151a72b0f7a9545ded2a546e9bc9744d Emeka <nwobodoemeka@yahoo.com> 1768298047 +0100	checkout: moving from emeka-node to emeka-cv-ai
+f03bc026151a72b0f7a9545ded2a546e9bc9744d 5cfd27f9f8c6ff3ce3ae47f17efe50e6a55cb0ee Emeka <nwobodoemeka@yahoo.com> 1768298077 +0100	checkout: moving from emeka-cv-ai to emeka-node
+5cfd27f9f8c6ff3ce3ae47f17efe50e6a55cb0ee 378fbf6bc14cfc8ca9dee95c4c5b854b7f778b4c Emeka <nwobodoemeka@yahoo.com> 1768298150 +0100	commit: add education
+378fbf6bc14cfc8ca9dee95c4c5b854b7f778b4c fb0f8a717eb90246a48b124a086b1d4492c8026d Emeka <nwobodoemeka@yahoo.com> 1768298223 +0100	checkout: moving from emeka-node to emeka-java
+fb0f8a717eb90246a48b124a086b1d4492c8026d c9f0ff25111014bcfba35495c880bd7c6a63edc6 Emeka <nwobodoemeka@yahoo.com> 1768382504 +0100	commit: more improvement
+c9f0ff25111014bcfba35495c880bd7c6a63edc6 1de589862cafe76d6a5b4ff8e0e93a13bcd9c2a5 Emeka <nwobodoemeka@yahoo.com> 1768470708 +0100	commit: micro service
+1de589862cafe76d6a5b4ff8e0e93a13bcd9c2a5 378fbf6bc14cfc8ca9dee95c4c5b854b7f778b4c Emeka <nwobodoemeka@yahoo.com> 1768470886 +0100	checkout: moving from emeka-java to emeka-node
+378fbf6bc14cfc8ca9dee95c4c5b854b7f778b4c 7314473eda6ac2108f8d13ef3f6ca2812f07e719 Emeka <nwobodoemeka@yahoo.com> 1768470942 +0100	commit: micro service
+7314473eda6ac2108f8d13ef3f6ca2812f07e719 1de589862cafe76d6a5b4ff8e0e93a13bcd9c2a5 Emeka <nwobodoemeka@yahoo.com> 1768819156 +0100	checkout: moving from emeka-node to emeka-java
+1de589862cafe76d6a5b4ff8e0e93a13bcd9c2a5 1de589862cafe76d6a5b4ff8e0e93a13bcd9c2a5 Emeka <nwobodoemeka@yahoo.com> 1768822495 +0100	checkout: moving from emeka-java to emeka-cto
+1de589862cafe76d6a5b4ff8e0e93a13bcd9c2a5 70d89b1eb0415502f9e422a1dcc48c231e140e54 Emeka <nwobodoemeka@yahoo.com> 1768822508 +0100	commit: emeka cto
+70d89b1eb0415502f9e422a1dcc48c231e140e54 f03bc026151a72b0f7a9545ded2a546e9bc9744d Emeka <nwobodoemeka@yahoo.com> 1768985548 +0100	checkout: moving from emeka-cto to emeka-cv-ai

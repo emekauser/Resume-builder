@@ -1,0 +1,52 @@
+.units {
+  text-align: center;
+}
+.block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  text-align: center;
+}
+.subTitle {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.icon {
+  margin-bottom: 10px;
+}
+
+.statusCode {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.errMessage {
+  font-size: 1rem;
+  margin-top: 10px;
+  max-width: 450px;
+  color: var(--gray-500-text);
+}
+
+.returnBackBtn {
+  max-width: 300px;
+  margin:  15px auto 0px auto;
+}
+@media (max-width: 768px) {
+  .block {
+    width: 90%;
+  }
+  .status-code {
+    font-size: 7rem;
+  }
+  .not-found > p:nth-child(2) {
+    font-size: 0.9rem;
+  }
+  .block .errMessage {
+    font-size: 0.9rem;
+  }
+}

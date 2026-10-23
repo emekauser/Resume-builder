@@ -1,0 +1,84 @@
+.box {
+  text-align: center;
+}
+.box>h3{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.resendCodeDesc {
+  padding: 15px;
+  border-bottom: 1px solid #ddd5d5;
+  text-align: center;
+}
+.resendCodeDesc span:last-child{
+  font-weight: 500;
+}
+.btn {
+  height: 35px;
+  width: 100%;
+  margin: 20px 0px 10px 0px;
+}
+.cancelBtn {
+  background-color: rgb(0 0 0 / 5%);
+  color: black;
+  height: 35px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0.2rem 0.4rem -0.075rem;
+}
+.cancelBtn:hover {
+  background: #efeded;
+}
+.formTitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+.otpInputsBox {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.otpInput {
+  width: 50px !important;
+  height: 50px;
+  border: none;
+  margin-right: 10px;
+  border-radius: 6px;
+  color: black;
+  background-color: rgb(233 233 233);
+  outline-color: var(--primary-color);
+}
+.otpInput:focus {
+  background-color: white;
+  border: 1px solid #d6d6d6;
+}
+
+.tips {
+  color: var(--gray-500-text);
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.resendBtn {
+  font-size: 16px;
+  height: 30px;
+  color: var(--primary-color);
+}
+.resendBtn:hover {
+  transform: scale(1.05);
+}
+
+.isDisabled {
+  background-color: rgb(245, 245, 245);
+  color: var(--primary-color);
+  cursor: default;
+  pointer-events: none;
+}
+.disableCancel{
+  color: rgb(117, 117, 117);
+  cursor: default;
+  pointer-events: none;
+}
+.loader{
+  width: 20px;
+  height: 20px;
+}

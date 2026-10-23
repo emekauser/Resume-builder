@@ -1,0 +1,168 @@
+.sidebar {
+  padding: 0px 1.2rem;
+  margin-top: 1.4rem;
+}
+.steps {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  cursor: pointer;
+  max-width: 250px;
+}
+.step {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+.step:hover {
+  background: rgba(0, 0, 0, 0.05);
+  /* padding: 10px; */
+}
+.stepNumber {
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  line-height: 23px;
+  border-radius: 50%;
+  background-color: #eaeaea;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 85%;
+}
+
+/*  */
+.cv_sections {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  left: 0;
+  top: 112px;
+  padding: 10px 20px;
+  background: #f9f9f9;
+  display: flex;
+  overflow-y: scroll;
+  width: 100%;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  margin: 10px 0px;
+  display: none;
+}
+.cv_section {
+  background: #fafafa;
+  padding: 6px 12px;
+  margin: 4px;
+  display: inline-block;
+  border-radius: 15px;
+  font-size: 14px;
+  border: 1px solid #efefef;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.mobileView {
+  display: none;
+}
+.mobile {
+  background: #eee;
+  padding: 5px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  align-items: center;
+}
+.mobile > div:first-child {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.flex > span:first-child {
+  font-weight: 500;
+}
+.dropDown {
+  height: 0px;
+  overflow: hidden;
+
+  margin-top: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.dropDown > div:only-child {
+  border-radius: 10px;
+}
+.open {
+  height: auto;
+}
+.expandMoreIcon {
+  transform: rotate(180deg);
+}
+.mobile svg {
+  color: hsla(0, 0%, 40%, 1);
+}
+.mobileStep {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 2px;
+  cursor: pointer;
+  background-color: #fafafa;
+  padding: 5px 20px;
+}
+.mobileStep:hover .label_ {
+  text-decoration: underline;
+}
+.progressBarBox {
+  width: 100%;
+  height: 6px;
+  background-color: #eee;
+  border-radius: 5px;
+  position: relative;
+  margin-block: 5px;
+  overflow: hidden;
+}
+.progressBarBox > div:only-child {
+  width: 50%;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+  background-color: #579095;
+}
+.activeMobile {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+/* -- state --- */
+.active {
+  background-color: var(--primary-color);
+  color: white;
+  /* background: #e3e3e3; */
+}
+
+.active_label {
+  color: #333;
+
+}
+.activePath{
+  background: #e3e3e3; 
+}
+@media (max-width: 768px) {
+  .cv_sections {
+    display: block;
+  }
+  .sidebar {
+    display: none;
+  }
+  .mobileView {
+    display: block;
+  }
+}

@@ -1,0 +1,36 @@
+.editorBody {
+  border: var(--border-thickness) solid var(--input-border-color);
+  min-height: 100px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 0 0 8px 8px;
+  outline: none;
+}
+.editorBody:focus {
+  border: var(--border-thickness) solid var(--primary-color);
+}
+.heading {
+  margin-block: 12px;
+}
+.codeStyle {
+  padding: 2px 2px;
+  background: hsl(0, 0%, 97%);
+  border: 1px solid hsl(210, 0%, 93%);
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 1.2;
+  font-size: 15px;
+  color: hsla(0, 0%, 9%, 1);
+  margin: 0px 5px;
+}
+.list {
+  margin: 0px 0px 0px 10px;
+}
+.bulletList {
+  margin: 0px 0px 0px 20px;
+  list-style-type: disc;
+}
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+}

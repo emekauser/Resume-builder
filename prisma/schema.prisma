@@ -1,0 +1,114 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Contacts {
+  contactId String @id @default(uuid())
+}
+
+model Templates {
+  templateId String  @id @default(uuid())
+  name       String
+  tag        String?
+
+  @@map("templates")
+}
+
+model Resumes {
+  resumeId            String     @id @default(uuid())
+  title               String?
+  resumeColor         String     @default("#0000")
+  resumeType          String
+  professionalSummary String?
+  photoURL            String?
+  firstName           String?
+  lastName            String?
+  country             String?
+  phone               String?
+  email               String
+  createdAt           DateTime   @default(now())
+  updatedAt           DateTime   @updatedAt // updates this field when we update this entry in the database.
+  workHistory         String[]
+  guestUserId         String     @unique
+  // GuestUsers          GuestUsers @relation(fields: [guestUserId], references: [userId])
+  user                Users      @relation(fields: [userID], references: [userId]) // foreign key userID reference primary key in User table which is userId
+  userID              String     @unique
+
+  @@map("resumes")
+}
+
+enum TEMPLATES_ENUM {
+  Prominent
+  Strong
+  Traditional
+  Smart
+  Trusted
+}
+
+// model GuestUsers {
+//   id         Int      @default(autoincrement())
+//   userId     String   @unique @default(uuid())
+//   createdAt  DateTime @default(now())
+//   updatedAt  DateTime @updatedAt
+//   templateId TEMPLATES_ENUM
+//   cv         Resumes?
+
+//   @@id([id, userId])
+//   @@map("guest_users")
+// }
+
+enum Role {
+  USER
+  ADMIN
+  MODERATOR
+}
+
+enum Gender {
+  MALE
+  FEMALE
+  OTHER
+}
+
+model Users {
+  id              Int      @default(autoincrement())
+  userId          String   @unique @default(uuid())
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  CV              Resumes?
+  resumesResumeId String?
+  firstName       String?  @db.VarChar(255)
+  lastName        String?  @db.VarChar(255)
+
+  // email
+  email                       String    @unique
+  emailVerificationCode       String?
+  emailVerificationCreatedAt  DateTime?
+  emailVerificationExpiration DateTime?
+  emailIsVerify               Boolean?
+  emailVerificationDate       DateTime?
+
+  // Password
+  password                   String    @db.VarChar(255)
+  passwordResetCode          String?
+  passwordResetCodeCreatedAt DateTime?
+  passwordResetCodeUpdatedAt DateTime?
+  passwordResetCodeCount     Int?
+
+  lastSignInAt     DateTime?
+  dateOfBirth      DateTime?
+  gender           Gender?
+  userImage        Bytes?
+  banned           Boolean?
+  birthday         DateTime?
+  phoneNumbers     String?
+  hasImage         Boolean?
+  twoFactorEnabled Boolean?
+  passwordEnabled  Boolean?
+
+  @@map("users")
+}

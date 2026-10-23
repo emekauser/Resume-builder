@@ -1,0 +1,16 @@
+.title_b {
+  display: flex;
+  justify-content: space-between;
+}
+.title_b > div:last-child {
+  display: none;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+  font-size: 25px;
+    font-weight: 600;
+}
+

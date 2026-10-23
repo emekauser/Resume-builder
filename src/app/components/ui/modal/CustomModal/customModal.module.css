@@ -1,0 +1,71 @@
+.ReactModal__Content_c {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0px 1px 1px rgba(0, 0, 0, 0.02),
+    0px 8px 16px -4px rgba(0, 0, 0, 0.04),
+    0px 24px 32px -8px rgba(0, 0, 0, 0.06);
+  border-color: #eee;
+  border: 1px solid #eee;
+  background: white;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.closeBar {
+  height: 5px;
+  width: 60px;
+  border-radius: 50px;
+  background-color: gray;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.pryBtn {
+  background: var(--primary-color);
+  font-weight: 700;
+  padding: 5px 12px;
+  height: 32px;
+  display: block;
+  border-radius: var(--input-border-m);
+  margin: 0px auto;
+  color: white;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .ReactModal__Content_c {
+    width: 90%;
+    padding: 14px;
+  }
+  .closeBar {
+    height: 5px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: gray;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+
+  .pryBtn {
+    background: var(--primary-color);
+    font-weight: 700;
+    padding: 5px 12px;
+    height: 32px;
+    display: block;
+    border-radius: var(--input-border-m);
+    margin: 0px auto;
+    color: white;
+    width: 100%;
+  }
+}

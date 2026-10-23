@@ -1,0 +1,63 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1.5px solid var(--input-border-color);
+  padding: 10px;
+  border-radius: var(--input-border-m);
+}
+.wrapper img {
+  border-radius: 10px;
+}
+.file_ {
+  margin: 0 5px;
+  display: inline-block;
+}
+.x{
+  padding: 2px;
+}
+.deleteIcon {
+  cursor: pointer;
+  color: var(--error);
+  transition: var(  --primary-animation)
+}
+.deleteIcon:hover {
+  transform: scale(1.2);
+}
+.fileUploadBtn {
+  background-color: #fff;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+  outline: none;
+  border: var(--border-thickness) dashed var(--input-border-color);
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: var(--input-height);
+  align-items: center;
+  justify-content: space-around;
+}
+.fileUploadBtn span:only-child {
+  display: flex;
+  font-weight: 500;
+}
+.image {
+  width: 80px;
+  height: 80px;
+  border-radius: 2px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.fileName_n_icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 450px) {
+  .wrapper {
+    align-items: center;
+  }
+}

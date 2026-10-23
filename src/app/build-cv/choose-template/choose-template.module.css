@@ -1,0 +1,117 @@
+.chooseTemplate {
+  margin: auto;
+  width: fit-content;
+}
+.chooseTemplate > div:first-child p:first-child {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 10px 0px;
+  text-align: center;
+}
+.chooseTemplate > div:first-child p:last-child {
+  text-align: center;
+  color: var(--gray-500-text);
+}
+
+/* choose color */
+.colors {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  justify-content: center;
+}
+.colors > * {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: cornflowerblue;
+  transition: transform 0.2s ease-in-out;
+}
+.selectedColor {
+  transform: scale(1.2);
+  border: 2px solid white;
+  outline: 2px solid cornflowerblue;
+}
+
+/*  templates */
+.templates {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-gap: 20px;
+  padding: 20px 0px;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+}
+.templates > * {
+  height: 300px;
+  cursor: pointer;
+  /* padding: 5px; */
+  position: relative;
+}
+
+ 
+/* template preview modal content */
+.modalContent {
+  min-height: 40vh;
+  position: relative;
+
+}
+.modalTemplate {
+  position: absolute;
+  width: 65%;
+  min-width: 300px;
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+  overflow: hidden;
+  margin: auto;
+}
+
+/* actions */
+.actions {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  z-index: 200;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.skipBtn {
+  padding: 10px 15px;
+  font-weight: 600;
+}
+
+.backBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: min-content;
+}
+.backBtn:hover > *:nth-child(1) {
+  transform: translateX(-10px);
+}
+
+.backBtn svg {
+  width: 20px;
+  height: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.isDisable {
+  background-color: rgb(245, 245, 245);
+  color: rgb(117, 117, 117);
+  cursor: default;
+  pointer-events: none;
+}
+@media (max-width: 600px) {
+  .chooseTemplate p {
+    font-size: 20px;
+  }
+  .chooseTemplate > div:first-child p:last-child {
+    font-size: 1rem;
+  }
+  .templates {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+}

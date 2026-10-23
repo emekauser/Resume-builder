@@ -1,0 +1,73 @@
+.loginForm > * {
+  margin-bottom: 20px;
+}
+.names {
+  display: flex;
+  justify-content: space-between;
+}
+.names > * {
+  width: 48%;
+}
+.passwordValidation {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* existingMember */
+.existingMember>span:nth-child(1) {
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.flexbox{
+  display: flex;
+}
+.mail {
+  font-weight: 700;
+  color: #3d3b49;
+  display: inline-block;
+  margin-right: 8px;
+}
+.flexbox button {
+  text-decoration: underline;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 15px;
+}
+.serverErr {
+  font-size: 13px;
+  color: var(--error) !important;
+  background: rgb(245, 245, 245);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.continue {
+  height: var(--header-height);
+  width: 100%;
+  background-color: var(--primary-color);
+  font-weight: 600;
+  color: white;
+  font-size: 15px !important;
+}
+.forgetPassword {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+.loginForm p {
+  color: #3d3b49;
+}
+.loginForm a {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.policy{
+  font-size: 12px;
+}
+.policy a{
+  color: var(--primary-color);
+}

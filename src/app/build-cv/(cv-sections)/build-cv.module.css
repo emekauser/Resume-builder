@@ -1,0 +1,93 @@
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: calc(var(--header-height) + 5px);
+  gap: 5%;
+  height: calc(100vh - var(--header-height));
+}
+
+/* .sidebar {
+  padding: 0px 1.2rem;
+  margin-top: 1.4rem;
+} */
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: max-content;
+  cursor: pointer;
+  max-width: 200px;
+}
+.step {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+.step:hover {
+  transform: translateX(5px);
+  font-size: 15px;
+}
+.stepNumber {
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  line-height: 23px;
+  border-radius: 50%;
+  background-color: #eaeaea;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 85%;
+}
+.mainBlock {
+  overflow-y: scroll;
+  width: 100%;
+  padding-top: 1.4rem;
+}
+
+.title_b {
+  display: flex;
+  justify-content: space-between;
+}
+.title_b > div:last-child {
+  display: none;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  font-weight: 400;
+}
+.largeStep {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.label {
+  color: #9c9c9c;
+}
+/* -- state --- */
+.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.active_label {
+  color: #333;
+}
+
+@media (max-width:768px) {
+  .content {
+    flex-direction: column;
+    justify-content: normal;
+  }
+}

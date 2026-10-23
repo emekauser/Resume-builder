@@ -1,0 +1,29 @@
+.buttons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+    gap:20px;
+  }
+  .buttons button,
+  .next a {
+    background-color: var(--primary-color);
+    padding: 8px 16px;
+    font-weight: 600;
+    height: var(--input-height);
+    border-radius: var(--button-border-radius);
+    font-size: 14px;
+    color: white;
+    min-width: 150px;
+  }
+  
+  @media (max-width:768px) {
+    
+    .buttons {
+   width: 100%;
+   justify-content: space-between;
+   
+    }
+    .buttons>*{
+      width: 48%;
+    }
+  }

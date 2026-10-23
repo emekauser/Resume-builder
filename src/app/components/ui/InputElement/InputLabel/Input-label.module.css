@@ -1,0 +1,19 @@
+.inputLabel {
+  --error: #d30005;
+  margin-bottom: 8px;
+  display: inline-block;
+  font-size: var(--input-label-font-desktop);
+  font-weight: 500;
+  position: relative;
+}
+.required {
+  color: var(--error);
+}
+@media (max-width: 768px) {
+  .inputLabel {
+    margin-bottom: 6px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}

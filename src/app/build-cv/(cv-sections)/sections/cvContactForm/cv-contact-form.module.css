@@ -1,0 +1,94 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 60%;
+  margin-top: 20px;
+  --input-box-margin-b: 20px;
+}
+.cvPreview {
+  /* transform: scale(0.6); */
+  /* zoom: 0.4; */
+  max-width: 250px;
+  max-height: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cvPreview > div:first-child {
+  padding: 20px;
+  height: 400px !important;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+.cvPreview button {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.inputBox {
+  display: flex;
+  margin-bottom: var(--input-box-margin-b);
+  gap: 20px;
+}
+.marginB {
+  margin-bottom: var(--input-box-margin-b);
+}
+.moreDetails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: var(--input-box-margin-b);
+}
+
+.moreInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.moreInfo > *,
+.inputBox > * {
+  width: 49%;
+}
+.moreDetails {
+  margin-top: var(--input-box-margin-b);
+}
+.moreDetails button {
+  border: 1.5px solid var(--primary-color);
+  padding: 4px 16px;
+  font-weight: 600;
+  border-radius: 50px;
+}
+.addMore {
+  display: flex;
+  align-items: center;
+}
+.addMore svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.moreInputDeleteIcon {
+  width: 20px;
+  height: 20px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.moreInputDeleteIcon:hover {
+  transform: scale(1.09);
+}
+
+@media (max-width: 1098px) {
+  .box {
+    width: 100%;
+  }
+  .cvPreview {
+    display: none;
+  }
+}

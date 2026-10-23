@@ -1,0 +1,22 @@
+.close {
+  width: 18px;
+  height: 18px;
+}
+.clearIndicator {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 3px;
+  color: hsl(0, 0%, 20%);
+  padding: 3px;
+  font-size: 13px;
+  font-weight: 500;
+  padding-left: 6px;
+  border-radius: 3px;
+  margin: 0px 2px;
+  cursor: pointer;
+}
+.clearIndicator:hover {
+  background-color: hsl(0, 0%, 90%);
+}
+

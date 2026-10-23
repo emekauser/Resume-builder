@@ -1,0 +1,22 @@
+.p_statement {
+    max-width: 700px;
+    margin: 0px auto 50px auto;
+    padding: 50px 0px 0px 0px;
+  }
+  .p_statement p {
+    line-height: 1.7;
+    /* color: #4e4e4e; */
+    margin-top: 16px;
+  }
+  
+  .p_statement em {
+    font-weight: 600;
+  }
+  .p_statement .title {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  

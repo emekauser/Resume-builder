@@ -1,0 +1,235 @@
+.templateWrapper {
+  display: flex;
+  /* transform: scale(0.2); */
+  /* transform: scale(0.282918); */
+}
+.template {
+  ----light-hover-color: #f5f5f5;
+  --title-block: 38, 109, 216;
+  --gray-text-color: #4e4e4e;
+  --cv-primary-color: teal;
+  /* --template-color: #929496; */
+  /* --template-color: #496267;
+   */
+  --template-color: #097eb2;
+  /* transform: scale(0.2); */
+  --template-padding: 30px;
+  max-width: 1000px;
+  margin: 0px auto;
+  position: relative;
+  /* gap: 10px; */
+  border: 1px solid #929496;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.template_header {
+  padding: var(--template-padding);
+  background-color: var(--template-color) !important;
+}
+.cv_name {
+  font-size: 45px;
+  margin-top: 25px;
+  color: #ffff;
+  font-weight: 600;
+}
+.main_skill {
+  font-size: 20px;
+  color: #ffff;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 10px;
+  color: #ffff;
+}
+.contact > * {
+  width: 31%;
+}
+.template_body {
+  padding: var(--template-padding);
+  display: flex;
+  gap: 20px;
+}
+.template_body > *:nth-child(1) {
+  width: 70%;
+}
+.template_body > *:nth-child(2) {
+  width: 30%;
+}
+
+.cv_contact {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.cv_contact a {
+  color: whitesmoke;
+  font-size: 15px;
+}
+.cv_contact > *:nth-child(1) {
+  margin-bottom: -5px;
+}
+.cv_contact > *:nth-child(2) {
+  text-decoration: underline;
+}
+
+/* --- SKILLS --- */
+
+.cv_skill {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.cv_skill span {
+  font-weight: 500;
+}
+.skill_sub_section h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* CV BLOCK:- include jobs, professional summary, certification, skills */
+.block {
+  margin: 15px 0px;
+  --block-color: #5a456d;
+  border-bottom: 1px solid var(--light-hover-color);
+}
+.block_title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: var(--block-color);
+  font-weight: 600;
+}
+.block hr {
+  border: 1.5px solid black;
+  margin: 15px 0px;
+  border-color: var(--block-color);
+}
+.block_text {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: var(--gray-text-color);
+}
+.blockTitle {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.blockTitle_sub-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+.activity-duration {
+  margin: 0px 0px 0px 10px;
+}
+/* job */
+.job {
+  margin-bottom: 20px;
+}
+.job_duration {
+  display: flex;
+  justify-content: space-between;
+}
+.job_title {
+  margin-bottom: 8px;
+}
+.comp_location {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+/*   */
+.rotate {
+  transform: rotate(110deg);
+}
+/* -- EDUCATION -- */
+.edu {
+  margin-bottom: 10px;
+}
+
+.school_inf {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+.school_name {
+  display: flex;
+}
+.edu_duration {
+  margin: 0px 0px 0px 10px;
+}
+.awarded {
+  color: var(--gray-text-color);
+}
+/* CERT */
+.cert_ {
+  margin-bottom: 3px;
+}
+.cert_ h4 {
+  margin-bottom: 3px;
+}
+/* CV BUTTONS */
+.cv_actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.cvPrintBtn {
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #dee2e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  max-height: 60px;
+  padding: 5px 15px;
+  color: black;
+  font-size: 13px;
+}
+
+.cv-prt-button:hover {
+  color: var(--primary-color);
+}
+
+.description_ li {
+  margin-block: 8px;
+  color: var(--button-gray-color);
+}
+
+.description_ ul {
+  margin-left: 35px;
+  list-style-type: disc;
+}
+/* Projects */
+.projectList {
+}
+.projectList > * a {
+  text-decoration: underline;
+}
+.projectList span {
+  font-weight: 600;
+}
+@media (max-width: 1250px) {
+  .cv-wrapper {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .description_ li {
+    font-size: 15px;
+  }
+  .description_ ul {
+    margin-left: 20px;
+  }
+  .description_ h1,
+  .description_ h2 {
+    font-size: 18px;
+  }
+
+  .description_ h3 {
+    font-size: 15px;
+  }
+}

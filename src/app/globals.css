@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;300;400;500;600;700;900&display=swap');
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary-color:#449595;
+  --primary-color-button-hover: #579095;
+  --gray-500-text: #75757a;
+  
+  --secondary-color: #097eb2;
+  --secondary-color-light-bg: #d9e6eb;
+  --page-width: 100%;
+  --header-height: 37px;
+  --input-border-m: 8px;
+  --hover-bg: #e5e7eb;
+  --error: #d30005;
+  --button-gray-color: #393f47;
+
+
+  /* social media colors platforms colors */
+  --github-blue: #4493f8;
+
+  /* -- inputs variables -- */
+  --input-height: 35px;
+  --border-thickness: 1.5px;
+  --input-border-color: #ddd;
+  --input-border: 1.6px solid var(--input-border-color);
+  --form-border-radius: 0.4rem;
+  --button-border-radius: 5px;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.header-logo {
+  width: 100px;
+  height: 50px;
+  object-fit: contain;
+}
+ul {
+  list-style-type: none;
+}
+.page-width {
+  width: var(--page-width);
+  margin: 0px auto;
+}
+/* ERRORS */
+.error {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--error) !important;
+}
+.error-color {
+  color: var(--error);
+}
+button {
+  background: none;
+  border: none;
+  height: var(--input-height);
+  border-radius: var(--input-border-m);
+  cursor: pointer;
+}
+.primary-button {
+  background: none;
+  border: none;
+  border-radius: var(--input-border-m);
+  cursor: pointer;
+  height: var(--header-height);
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 500;
+}
+
+.link-button {
+  display: inline-block;
+  height: 40px;
+  padding: 10px 20px;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.primary-button:hover,
+.button-without-bg:hover,
+.link-button:hover,
+.link-btn:hover {
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.12);
+  transform: scale(1.01);
+  border-radius: 5px;
+}
+.global-hover-effect:hover {
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.12);
+  transform: scale(1.01);
+  border-radius: 5px;
+}
+.is-disable {
+  background-color: rgb(245, 245, 245);
+  color: rgb(117, 117, 117);
+  cursor: default;
+  pointer-events: none;
+}
+.form {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  max-width: 360px;
+  width: 360px;
+  transform: translate(-50%, -50%);
+}
+input::placeholder{
+  color:#959597
+}
+.gray-text {
+  color: var(--gray-500-text);
+}
+.secondary-color{
+  color: var(  --secondary-color);
+}
+/* React Select */
+.r-select-placeholder {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+@media (max-width: 1220px) {
+  .page-width {
+    width: 95%;
+  }
+  .form {
+    width: 95%;
+  }
+}

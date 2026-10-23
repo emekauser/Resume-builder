@@ -1,0 +1,39 @@
+.btn {
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 50px;
+    border-radius: var(  --input-border-m);
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 13px;
+    height: var(--input-height);
+  }
+  .btn:hover {
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.12);
+    transform: scale(1.01);
+    border-radius: 5px;
+  }
+  .linkButton {
+    height: var(--input-height);
+    border-radius: var(  --input-border-m);
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .greyBg {
+    background-color: rgb(230, 230, 230);
+    color: rgb(117, 117, 117);
+    cursor: default;
+    pointer-events: none;
+  }
+  .full{
+    width: 100% !important;
+  }
